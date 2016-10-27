@@ -17,6 +17,8 @@ The remaining 79 variables are the mean of each measurement for each activity an
 
 The format of these variables are double with 8 decimal point.
 
+The value is a signal value ranged from -1 to 1
+
 Here are the meaning of each part of the variable names:
 
 * t - Time domain signal
