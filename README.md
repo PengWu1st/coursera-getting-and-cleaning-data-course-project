@@ -1,12 +1,12 @@
 #Course Project - Getting and Cleaning Data
 ___________________________________________
-####Peng Wu
-####wupeng1127@foxmail.com
+Peng Wu
+
+wupeng1127@foxmail.com
 __________________________
-####This is the course project for the Getting and Cleaning Data course on Coursera.
-____________________________________________________________________________________
-####Here are what the R script run_analysis.R do:
-_____________________________________________
+This is the course project for the Getting and Cleaning Data course on Coursera.
+
+Here are what the R script run_analysis.R do:
 
 1. Download and unzip file if the file does not exist
 2. Load the train data set and test data set into R and merge them into one data set called 'alldata'
