@@ -46,11 +46,7 @@ colnames(datawanted) <- c("subject","activity",featuresname)
 
 
 #Step 5 creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-tidydata <- 
-        datawanted %>% 
-        gather("measurement","value",-(1:2)) %>% 
-        group_by(subject, activity, measurement) %>% 
-        summarise(mean = mean(value)) %>%
-        spread(measurement, mean)
+tidydata <- datawanted %>% group_by(subject, activity) %>% summarise_all(mean)
+
 
 write.table(tidydata,"tidydata.txt", row.names = FALSE, quote = FALSE)
